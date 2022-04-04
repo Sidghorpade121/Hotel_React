@@ -1,0 +1,31 @@
+input {
+    padding: 10px 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+    width: 100%;
+  }
+  
+  .box {
+    margin: 100px;
+    position: relative;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #999;
+    transition: .5s;
+    pointer-events: none;
+  }
+  
+  input:focus~label,
+  input:valid~label {
+    top: -12px;
+    left: 0;
+    color: crimson;
+    font-weight: bold;
+  }

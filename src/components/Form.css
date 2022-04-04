@@ -1,0 +1,31 @@
+.form-control:not(active){
+    color:rgb(26, 4, 4);
+ }
+
+ .form-control:focus{
+    color:rgb(12, 4, 20);
+ }
+ #contact-form {
+    margin: 20px;
+    width: 800px;
+  }
+  
+  .form-control {
+      -ms-text-size-adjust: auto;
+    height: 50px;
+    border-radius: 0;
+    background-color: #bdb5be;
+    color: rgb(124, 68, 68);
+    border-color: rgb(211, 194, 194);
+    border-width: 2.3px;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+  }
+  .h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
